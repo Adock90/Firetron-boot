@@ -1,3 +1,4 @@
+;not part just copy-pasted to check if everything is working
 [BITS 16]         ; Set the code to 16-bit mode
 [ORG 0x7c00]      ; Set the origin (starting address) to 0x7c00, typical for boot loaders
 
