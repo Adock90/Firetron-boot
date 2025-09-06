@@ -25,3 +25,8 @@ FireBootMain:
 %include "FTMBRX86SWIT32.asm"
 
 BIOS_BOOT_DRIVE db 0
+
+
+times 510 - ($-$$) db 0
+
+dw 0xaa55
