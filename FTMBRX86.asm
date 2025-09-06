@@ -19,10 +19,24 @@ FireBootMain:
 %include "FTMBRX86DISK.asm"
 %include "FTMBRX86GDT.asm"
 %include "FTMBRX86HEX.asm"
-%include "FTMBRX86LOADKERNEL.asm"
 %include "FTMBRX86PRINT.asm"
 %include "FTMBRX86SCREEN.asm"
 %include "FTMBRX86SWIT32.asm"
+
+[bits 16]
+
+FireBootLoadKernel:
+        mov bx, BIOS_KERNEL_OFFSET
+        mov dh, 2
+        mov dl, [BIOS_BOOT_DRIVE]
+        call FireBootLoadDisk
+        ret
+
+[bits 32]
+FireBootJumpBits32:
+        call BIOS_KERNEL_OFFSET
+        jmp $
+
 
 BIOS_BOOT_DRIVE db 0
 
