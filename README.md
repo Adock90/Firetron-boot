@@ -1,2 +1,2 @@
 # Firetron-boot
-The Firetron Operating System Bootloader WIP
+The Firetron Operating System Bootloader 
