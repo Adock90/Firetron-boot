@@ -1,3 +1,13 @@
+;THIS SOFTWARE IS FREE TO USE FOR OS PRODJECTS
+;I WOULD PERSONALLY RECOMMEND LEARNING FROM ONLINE RESOURCES AS WELL
+;Author: Adam Croft (adock90)
+;Written in: x86 assembly language, C
+;Date of creation: 8/9/25
+
+;The following code boots Firetron through BIOS systems, UEFI Systems under CSM
+;Compatibilty support for BIOS Bootloaders, Virtual Machine software such as
+;VMWare, VirtualBox and QEMU 
+
 [bits 16]
 [org 0x7c00]
 
