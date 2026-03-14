@@ -67,8 +67,8 @@ EFI_STATUS EFIAPI efi_main(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE* SystemTable
 	
 	FireKrnlParams FKP = {0};
 
-        FKP.MemMapStruct = &ResultMemCode.MemMapStruct;
-        FKP.SystemTable = SystemTable;	
+    FKP.MemMapStruct = &ResultMemCode.MemMapStruct;
+    FKP.SystemTable = SystemTable;	
 
 	ResultCode = uefi_call_wrapper(BS->ExitBootServices, 2, ImageHandle, ResultMemCode.MemMapStruct.MapKey);
 	if (EFI_ERROR(ResultCode))
