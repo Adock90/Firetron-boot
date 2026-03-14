@@ -3,7 +3,8 @@ The Firetron Operating System Bootloader
 
 # This OS Bootloader is WIP. ONLY The UEFI Bootloader works properly
 # Building UEFI
-Git Clone:\n
+Git Clone:
+
 <code> git clone https://github.com/Adock90/Firetron-boot.git</code>
 cd into the UEFI dir:
 <code> cd UEFI </code>
