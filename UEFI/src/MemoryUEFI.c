@@ -22,7 +22,7 @@ FBSMemoryReturn FireGetMemoryMap(FBSMemoryMap MapStruct)
 	{
 		Print(L"[Fatal Err] Failed to retrieve Memory Map. EFI_STATUS: %d\n", Status);
 		uefi_call_wrapper(BS->FreePool, 1, MapStruct.Map);
-        }
+    }
 	
 	FBSMemoryReturn Data;
 	
