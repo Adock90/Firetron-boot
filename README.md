@@ -22,7 +22,7 @@ Run:
 <code> ./BuildUEFI.sh </code>
 
 
-#Checklist
+# Checklist
 
 UEFI bootloader that loads kernel. Done
 
@@ -31,7 +31,7 @@ UEFI dummy kernel. Still WIP
 BIOS Bootloader. Still WIP
 
 
-#Credits For UEFI
+# Credits For UEFI
 
 
 To the kind people online whose hard work made this possible:
@@ -43,7 +43,7 @@ Queso Fuego: <a href=https://github.com/queso-fuego>https://github.com/queso-fue
 OSDev: <a href=https://wiki.osdev.org/UEFI>https://wiki.osdev.org/UEFI</a>
 
 
-#Resources For UEFI
+# Resources For UEFI
 
 
 OSDev GNU-EFI Setup: <a href=https://wiki.osdev.org/GNU-EFI>https://wiki.osdev.org/GNU-EFI</a>
