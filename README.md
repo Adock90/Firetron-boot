@@ -1,6 +1,7 @@
 # Firetron-boot
 
-The Firetron Operating System Bootloader 
+The Firetron Operating System Bootloader.
+Bootloader WIP. Designed for x86 CPUs. Not finished and not ready to release.
 
 # This OS Bootloader is WIP. ONLY The UEFI Bootloader works properly
 
