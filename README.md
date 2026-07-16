@@ -54,7 +54,7 @@ OSDev Bootable Disk: <a href=https://wiki.osdev.org/Bootable_Disk>https://wiki.o
 
 Queso Fuego's Bootloader Repo: <a href=https://github.com/queso-fuego/uefi-dev/tree/main>https://github.com/queso-fuego/uefi-dev/tree/main</a>
 
-Queso Fuego's YouTube Videos: <a href=https://www.youtube.com/playlist?list=PLT7NbkyNWaqZYHNLtOZ1MNxOt8myP5K0p>https://www.youtube.com/playlist?list=PLT7NbkyNWaqZYHNLtOZ1MNxOt8myP5K0p</a>
+Queso Fuego's YouTube Videos: <a href="https://www.youtube.com/playlist?list=PLT7NbkyNWaqZYHNLtOZ1MNxOt8myP5K0p>https://www.youtube.com/playlist?list=PLT7NbkyNWaqZYHNLtOZ1MNxOt8myP5K0p"</a>
 
 EmbeddedOS's Bootloader Repo: <a href=https://github.com/EmbeddedOS/uefi-bootloader>https://github.com/EmbeddedOS/uefi-bootloader</a>
 
